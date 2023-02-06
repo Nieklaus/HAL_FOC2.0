@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: E:\FOC_Winter\Hardware\FOC_Lite\FOC_Lite.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=foc_lite-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=foc_lite-slotholes.txt|DrillLayers=gtl,gbl

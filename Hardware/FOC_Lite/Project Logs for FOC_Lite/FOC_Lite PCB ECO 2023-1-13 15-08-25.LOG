@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=+12 Pin=S1-1
+Added Pin To Net: NetName=+12 Pin=S1-3
+Added Member To Class: ClassName=FOC_Lite Member=Component R3 0R
+Added Member To Class: ClassName=FOC_Lite Member=Component R5 0.01R
+Added Member To Class: ClassName=FOC_Lite Member=Component R7 10R
+Added Member To Class: ClassName=FOC_Lite Member=Component R9 10R
+Added Member To Class: ClassName=FOC_Lite Member=Component R10 10R
+Added Member To Class: ClassName=FOC_Lite Member=Component R12 10R
+Added Member To Class: ClassName=FOC_Lite Member=Component R13 1K

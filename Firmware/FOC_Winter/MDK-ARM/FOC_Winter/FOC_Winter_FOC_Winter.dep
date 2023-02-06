@@ -1,0 +1,1723 @@
+Dependencies for Project 'FOC_Winter', Target 'FOC_Winter': (DO NOT MODIFY !)
+F (startup_stm32f407xx.s)(0x63DD11FE)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 528" --pd "_RTE_ SETA 1" --pd "STM32F407xx SETA 1"--list startup_stm32f407xx.lst --xref -o foc_winter\startup_stm32f407xx.o --depend foc_winter\startup_stm32f407xx.d)
+F (../Core/Src/main.c)(0x63DD2517)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\main.o --omf_browse foc_winter\main.crf --depend foc_winter\main.d)
+I (../Core/Inc/main.h)(0x63CCFF7A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+I (../Core/Inc/adc.h)(0x63CAADAB)
+I (../Core/Inc/dma.h)(0x63CAADAC)
+I (../Core/Inc/spi.h)(0x63CAADAC)
+I (../Core/Inc/tim.h)(0x63DD06EA)
+I (../Core/Inc/usart.h)(0x63CAADAC)
+I (../Core/Inc/gpio.h)(0x63C97CCB)
+I (../DSP_Lib/Include/arm_math.h)(0x61F12857)
+I (../DSP_Lib/Include/core_cm4.h)(0x61F12857)
+I (D:\special program\keil ARM\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\special program\keil ARM\ARM\ARMCC\include\math.h)(0x5CEB79D6)
+I (../Hardware/User/Usrt/Usrt.h)(0x63D7C9FF)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\Simple FOC\FOC_Motor\FOC_Motor.h)(0x63B5878C)
+I (..\Simple FOC\PID_Motor\PID_Motor.h)(0x63CEBB64)
+I (..\Simple FOC\FOC_Define\FOC_Define.h)(0x63B11E7D)
+I (../Hardware/User/AS5600/AS5600.h)(0x63D7BE65)
+I (../Hardware/User/delay/delay_JR.h)(0x63BD791A)
+I (..\Simple FOC\Low_pass_filtering\Low_pass_filtering.h)(0x63A6C93D)
+I (..\Simple FOC\Base_Motor_Control\Base_Motor_Control.h)(0x63AD91A0)
+I (../Hardware/User/LCD_SPI/lcd_init.h)(0x63CD002B)
+I (../Hardware/User/LCD_SPI/lcd.h)(0x639F29A3)
+I (../Hardware/User/LCD_SPI/pic.h)(0x5E6EF787)
+I (../Hardware/User/GUI/GUI.h)(0x63D51DA4)
+I (..\Simple FOC\InlineCurrentSense\InlineCurrentSense.h)(0x63B12300)
+I (..\Simple FOC\_ReadADC\Inline_ADC.h)(0x63CEBA9A)
+F (../Core/Src/gpio.c)(0x63D378B5)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\gpio.o --omf_browse foc_winter\gpio.crf --depend foc_winter\gpio.d)
+I (../Core/Inc/gpio.h)(0x63C97CCB)
+I (../Core/Inc/main.h)(0x63CCFF7A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (../Core/Src/adc.c)(0x63CEB976)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\adc.o --omf_browse foc_winter\adc.crf --depend foc_winter\adc.d)
+I (../Core/Inc/adc.h)(0x63CAADAB)
+I (../Core/Inc/main.h)(0x63CCFF7A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (../Core/Src/dma.c)(0x63D386A4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\dma.o --omf_browse foc_winter\dma.crf --depend foc_winter\dma.d)
+I (../Core/Inc/dma.h)(0x63CAADAC)
+I (../Core/Inc/main.h)(0x63CCFF7A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (../Core/Src/spi.c)(0x63CAADAC)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\spi.o --omf_browse foc_winter\spi.crf --depend foc_winter\spi.d)
+I (../Core/Inc/spi.h)(0x63CAADAC)
+I (../Core/Inc/main.h)(0x63CCFF7A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (../Core/Src/tim.c)(0x63DD11FB)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\tim.o --omf_browse foc_winter\tim.crf --depend foc_winter\tim.d)
+I (../Core/Inc/tim.h)(0x63DD06EA)
+I (../Core/Inc/main.h)(0x63CCFF7A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (../Core/Src/usart.c)(0x63DD0966)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\usart.o --omf_browse foc_winter\usart.crf --depend foc_winter\usart.d)
+I (../Core/Inc/usart.h)(0x63CAADAC)
+I (../Core/Inc/main.h)(0x63CCFF7A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (../Core/Src/stm32f4xx_it.c)(0x63DD06EA)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\stm32f4xx_it.o --omf_browse foc_winter\stm32f4xx_it.crf --depend foc_winter\stm32f4xx_it.d)
+I (../Core/Inc/main.h)(0x63CCFF7A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_it.h)(0x63DD06EA)
+I (../Hardware/User/Usrt/Usrt.h)(0x63D7C9FF)
+I (../Core/Inc/usart.h)(0x63CAADAC)
+I (../Core/Inc/dma.h)(0x63CAADAC)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\Simple FOC\FOC_Motor\FOC_Motor.h)(0x63B5878C)
+I (..\Simple FOC\PID_Motor\PID_Motor.h)(0x63CEBB64)
+I (..\Simple FOC\FOC_Define\FOC_Define.h)(0x63B11E7D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\math.h)(0x5CEB79D6)
+I (../Hardware/User/AS5600/AS5600.h)(0x63D7BE65)
+I (../Hardware/User/delay/delay_JR.h)(0x63BD791A)
+I (..\Simple FOC\Low_pass_filtering\Low_pass_filtering.h)(0x63A6C93D)
+I (..\Simple FOC\Base_Motor_Control\Base_Motor_Control.h)(0x63AD91A0)
+I (../DSP_Lib/Include/arm_math.h)(0x61F12857)
+I (../DSP_Lib/Include/core_cm4.h)(0x61F12857)
+I (D:\special program\keil ARM\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (../Core/Inc/tim.h)(0x63DD06EA)
+F (../Core/Src/stm32f4xx_hal_msp.c)(0x63C97CCB)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\stm32f4xx_hal_msp.o --omf_browse foc_winter\stm32f4xx_hal_msp.crf --depend foc_winter\stm32f4xx_hal_msp.d)
+I (../Core/Inc/main.h)(0x63CCFF7A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c)(0x62D7965D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\stm32f4xx_hal_adc.o --omf_browse foc_winter\stm32f4xx_hal_adc.crf --depend foc_winter\stm32f4xx_hal_adc.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c)(0x62D7965D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\stm32f4xx_hal_adc_ex.o --omf_browse foc_winter\stm32f4xx_hal_adc_ex.crf --depend foc_winter\stm32f4xx_hal_adc_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c)(0x62D7965D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\stm32f4xx_ll_adc.o --omf_browse foc_winter\stm32f4xx_ll_adc.crf --depend foc_winter\stm32f4xx_ll_adc.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c)(0x62D7965D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\stm32f4xx_hal_rcc.o --omf_browse foc_winter\stm32f4xx_hal_rcc.crf --depend foc_winter\stm32f4xx_hal_rcc.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c)(0x62D7965D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\stm32f4xx_hal_rcc_ex.o --omf_browse foc_winter\stm32f4xx_hal_rcc_ex.crf --depend foc_winter\stm32f4xx_hal_rcc_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c)(0x62D7965D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\stm32f4xx_hal_flash.o --omf_browse foc_winter\stm32f4xx_hal_flash.crf --depend foc_winter\stm32f4xx_hal_flash.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c)(0x62D7965D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\stm32f4xx_hal_flash_ex.o --omf_browse foc_winter\stm32f4xx_hal_flash_ex.crf --depend foc_winter\stm32f4xx_hal_flash_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c)(0x62D7965D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\stm32f4xx_hal_flash_ramfunc.o --omf_browse foc_winter\stm32f4xx_hal_flash_ramfunc.crf --depend foc_winter\stm32f4xx_hal_flash_ramfunc.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c)(0x62D7965D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\stm32f4xx_hal_gpio.o --omf_browse foc_winter\stm32f4xx_hal_gpio.crf --depend foc_winter\stm32f4xx_hal_gpio.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c)(0x62D7965D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\stm32f4xx_hal_dma_ex.o --omf_browse foc_winter\stm32f4xx_hal_dma_ex.crf --depend foc_winter\stm32f4xx_hal_dma_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c)(0x62D7965D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\stm32f4xx_hal_dma.o --omf_browse foc_winter\stm32f4xx_hal_dma.crf --depend foc_winter\stm32f4xx_hal_dma.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c)(0x62D7965D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\stm32f4xx_hal_pwr.o --omf_browse foc_winter\stm32f4xx_hal_pwr.crf --depend foc_winter\stm32f4xx_hal_pwr.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c)(0x62D7965D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\stm32f4xx_hal_pwr_ex.o --omf_browse foc_winter\stm32f4xx_hal_pwr_ex.crf --depend foc_winter\stm32f4xx_hal_pwr_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c)(0x62D7965D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\stm32f4xx_hal_cortex.o --omf_browse foc_winter\stm32f4xx_hal_cortex.crf --depend foc_winter\stm32f4xx_hal_cortex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c)(0x62D7965D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\stm32f4xx_hal.o --omf_browse foc_winter\stm32f4xx_hal.crf --depend foc_winter\stm32f4xx_hal.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c)(0x62D7965D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\stm32f4xx_hal_exti.o --omf_browse foc_winter\stm32f4xx_hal_exti.crf --depend foc_winter\stm32f4xx_hal_exti.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c)(0x62D7965D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\stm32f4xx_hal_spi.o --omf_browse foc_winter\stm32f4xx_hal_spi.crf --depend foc_winter\stm32f4xx_hal_spi.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c)(0x62D7965D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\stm32f4xx_hal_tim.o --omf_browse foc_winter\stm32f4xx_hal_tim.crf --depend foc_winter\stm32f4xx_hal_tim.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c)(0x62D7965D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\stm32f4xx_hal_tim_ex.o --omf_browse foc_winter\stm32f4xx_hal_tim_ex.crf --depend foc_winter\stm32f4xx_hal_tim_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c)(0x62D7965D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\stm32f4xx_hal_uart.o --omf_browse foc_winter\stm32f4xx_hal_uart.crf --depend foc_winter\stm32f4xx_hal_uart.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (../Core/Src/system_stm32f4xx.c)(0x62D7962D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\system_stm32f4xx.o --omf_browse foc_winter\system_stm32f4xx.crf --depend foc_winter\system_stm32f4xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (..\DSP_Lib\arm_cortexM4lf_math.lib)(0x61F12859)()
+F (..\Hardware\User\AS5600\AS5600.c)(0x63CF96B9)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\as5600.o --omf_browse foc_winter\as5600.crf --depend foc_winter\as5600.d)
+I (..\Hardware\User\AS5600\AS5600.h)(0x63D7BE65)
+I (../Core/Inc/main.h)(0x63CCFF7A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+I (../Hardware/User/delay/delay_JR.h)(0x63BD791A)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+F (..\Hardware\User\delay\delay_JR.c)(0x63BD7973)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\delay_jr.o --omf_browse foc_winter\delay_jr.crf --depend foc_winter\delay_jr.d)
+I (..\Hardware\User\delay\delay_JR.h)(0x63BD791A)
+I (../Core/Inc/main.h)(0x63CCFF7A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (..\Hardware\User\LCD_SPI\lcd.c)(0x63A1A527)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\lcd.o --omf_browse foc_winter\lcd.crf --depend foc_winter\lcd.d)
+I (..\Hardware\User\LCD_SPI\lcd.h)(0x639F29A3)
+I (../Core/Inc/main.h)(0x63CCFF7A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+I (..\Hardware\User\LCD_SPI\lcd_init.h)(0x63CD002B)
+I (..\Hardware\User\LCD_SPI\lcdfont.h)(0x5EDEE16D)
+I (../Core/Inc/spi.h)(0x63CAADAC)
+F (..\Hardware\User\LCD_SPI\lcd_init.c)(0x63A1A4B8)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\lcd_init.o --omf_browse foc_winter\lcd_init.crf --depend foc_winter\lcd_init.d)
+I (..\Hardware\User\LCD_SPI\lcd_init.h)(0x63CD002B)
+I (../Core/Inc/main.h)(0x63CCFF7A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+I (../Core/Inc/spi.h)(0x63CAADAC)
+I (../Hardware/User/delay/delay_JR.h)(0x63BD791A)
+F (..\Hardware\User\Usrt\Usrt.c)(0x63D7C9FF)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\usrt.o --omf_browse foc_winter\usrt.crf --depend foc_winter\usrt.d)
+I (..\Hardware\User\Usrt\Usrt.h)(0x63D7C9FF)
+I (../Core/Inc/main.h)(0x63CCFF7A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+I (../Core/Inc/usart.h)(0x63CAADAC)
+I (../Core/Inc/dma.h)(0x63CAADAC)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\Simple FOC\FOC_Motor\FOC_Motor.h)(0x63B5878C)
+I (..\Simple FOC\PID_Motor\PID_Motor.h)(0x63CEBB64)
+I (..\Simple FOC\FOC_Define\FOC_Define.h)(0x63B11E7D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\math.h)(0x5CEB79D6)
+I (../Hardware/User/AS5600/AS5600.h)(0x63D7BE65)
+I (../Hardware/User/delay/delay_JR.h)(0x63BD791A)
+I (..\Simple FOC\Low_pass_filtering\Low_pass_filtering.h)(0x63A6C93D)
+I (..\Simple FOC\Base_Motor_Control\Base_Motor_Control.h)(0x63AD91A0)
+I (../DSP_Lib/Include/arm_math.h)(0x61F12857)
+I (../DSP_Lib/Include/core_cm4.h)(0x61F12857)
+I (D:\special program\keil ARM\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (../Core/Inc/tim.h)(0x63DD06EA)
+F (..\Hardware\User\GUI\GUI.c)(0x63DD28C3)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\gui.o --omf_browse foc_winter\gui.crf --depend foc_winter\gui.d)
+I (..\Hardware\User\GUI\GUI.h)(0x63D51DA4)
+I (../Core/Inc/main.h)(0x63CCFF7A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+I (../Hardware/User/LCD_SPI/lcd_init.h)(0x63CD002B)
+I (../Hardware/User/LCD_SPI/lcd.h)(0x639F29A3)
+I (..\Simple FOC\FOC_Motor\FOC_Motor.h)(0x63B5878C)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\Simple FOC\PID_Motor\PID_Motor.h)(0x63CEBB64)
+I (..\Simple FOC\FOC_Define\FOC_Define.h)(0x63B11E7D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\math.h)(0x5CEB79D6)
+I (../Hardware/User/AS5600/AS5600.h)(0x63D7BE65)
+I (../Hardware/User/delay/delay_JR.h)(0x63BD791A)
+I (..\Simple FOC\Low_pass_filtering\Low_pass_filtering.h)(0x63A6C93D)
+I (..\Simple FOC\Base_Motor_Control\Base_Motor_Control.h)(0x63AD91A0)
+I (../DSP_Lib/Include/arm_math.h)(0x61F12857)
+I (../DSP_Lib/Include/core_cm4.h)(0x61F12857)
+I (D:\special program\keil ARM\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (../Core/Inc/tim.h)(0x63DD06EA)
+F (..\Simple FOC\_ReadADC\Inline_ADC.c)(0x63D5441B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\inline_adc.o --omf_browse foc_winter\inline_adc.crf --depend foc_winter\inline_adc.d)
+I (..\Simple FOC\_ReadADC\Inline_ADC.h)(0x63CEBA9A)
+I (../Core/Inc/main.h)(0x63CCFF7A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+I (../Core/Inc/adc.h)(0x63CAADAB)
+I (../Core/Inc/dma.h)(0x63CAADAC)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\Simple FOC\FOC_Motor\FOC_Motor.h)(0x63B5878C)
+I (..\Simple FOC\PID_Motor\PID_Motor.h)(0x63CEBB64)
+I (..\Simple FOC\FOC_Define\FOC_Define.h)(0x63B11E7D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\math.h)(0x5CEB79D6)
+I (../Hardware/User/AS5600/AS5600.h)(0x63D7BE65)
+I (../Hardware/User/delay/delay_JR.h)(0x63BD791A)
+I (..\Simple FOC\Low_pass_filtering\Low_pass_filtering.h)(0x63A6C93D)
+I (..\Simple FOC\Base_Motor_Control\Base_Motor_Control.h)(0x63AD91A0)
+I (../DSP_Lib/Include/arm_math.h)(0x61F12857)
+I (../DSP_Lib/Include/core_cm4.h)(0x61F12857)
+I (D:\special program\keil ARM\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (../Core/Inc/tim.h)(0x63DD06EA)
+F (..\Simple FOC\Base_Motor_Control\Base_Motor_Control.c)(0x63CF7F5E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\base_motor_control.o --omf_browse foc_winter\base_motor_control.crf --depend foc_winter\base_motor_control.d)
+I (..\Simple FOC\Base_Motor_Control\Base_Motor_Control.h)(0x63AD91A0)
+I (../Core/Inc/main.h)(0x63CCFF7A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (..\Simple FOC\CurrentSense\CurrentSense.c)(0x63CF9764)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\currentsense.o --omf_browse foc_winter\currentsense.crf --depend foc_winter\currentsense.d)
+I (..\Simple FOC\CurrentSense\CurrentSense.h)(0x63B85493)
+I (../Core/Inc/main.h)(0x63CCFF7A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+I (../DSP_Lib/Include/arm_math.h)(0x61F12857)
+I (../DSP_Lib/Include/core_cm4.h)(0x61F12857)
+I (D:\special program\keil ARM\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\special program\keil ARM\ARM\ARMCC\include\math.h)(0x5CEB79D6)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\Simple FOC\InlineCurrentSense\InlineCurrentSense.h)(0x63B12300)
+I (../Hardware/User/delay/delay_JR.h)(0x63BD791A)
+I (..\Simple FOC\_ReadADC\Inline_ADC.h)(0x63CEBA9A)
+I (../Core/Inc/adc.h)(0x63CAADAB)
+I (../Core/Inc/dma.h)(0x63CAADAC)
+I (..\Simple FOC\FOC_Define\FOC_Define.h)(0x63B11E7D)
+I (..\Simple FOC\FOC_Motor\FOC_Motor.h)(0x63B5878C)
+I (..\Simple FOC\PID_Motor\PID_Motor.h)(0x63CEBB64)
+I (..\Simple FOC\Base_Motor_Control\Base_Motor_Control.h)(0x63AD91A0)
+I (../Core/Inc/tim.h)(0x63DD06EA)
+I (../Hardware/User/AS5600/AS5600.h)(0x63D7BE65)
+I (..\Simple FOC\Low_pass_filtering\Low_pass_filtering.h)(0x63A6C93D)
+F (..\Simple FOC\FOC_Define\FOC_Define.c)(0x63B11E77)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\foc_define.o --omf_browse foc_winter\foc_define.crf --depend foc_winter\foc_define.d)
+I (..\Simple FOC\FOC_Define\FOC_Define.h)(0x63B11E7D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\math.h)(0x5CEB79D6)
+I (..\Simple FOC\FOC_Motor\FOC_Motor.h)(0x63B5878C)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\Simple FOC\PID_Motor\PID_Motor.h)(0x63CEBB64)
+I (../Core/Inc/main.h)(0x63CCFF7A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+I (..\Simple FOC\Base_Motor_Control\Base_Motor_Control.h)(0x63AD91A0)
+I (../DSP_Lib/Include/arm_math.h)(0x61F12857)
+I (../DSP_Lib/Include/core_cm4.h)(0x61F12857)
+I (D:\special program\keil ARM\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (../Hardware/User/delay/delay_JR.h)(0x63BD791A)
+I (../Core/Inc/tim.h)(0x63DD06EA)
+I (../Hardware/User/AS5600/AS5600.h)(0x63D7BE65)
+I (..\Simple FOC\Low_pass_filtering\Low_pass_filtering.h)(0x63A6C93D)
+F (..\Simple FOC\FOC_Motor\FOC_Motor.c)(0x63CF9764)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\foc_motor.o --omf_browse foc_winter\foc_motor.crf --depend foc_winter\foc_motor.d)
+I (..\Simple FOC\FOC_Motor\FOC_Motor.h)(0x63B5878C)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\Simple FOC\PID_Motor\PID_Motor.h)(0x63CEBB64)
+I (../Core/Inc/main.h)(0x63CCFF7A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+I (..\Simple FOC\FOC_Define\FOC_Define.h)(0x63B11E7D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\math.h)(0x5CEB79D6)
+I (../Hardware/User/AS5600/AS5600.h)(0x63D7BE65)
+I (../Hardware/User/delay/delay_JR.h)(0x63BD791A)
+I (..\Simple FOC\Low_pass_filtering\Low_pass_filtering.h)(0x63A6C93D)
+I (..\Simple FOC\Base_Motor_Control\Base_Motor_Control.h)(0x63AD91A0)
+I (../DSP_Lib/Include/arm_math.h)(0x61F12857)
+I (../DSP_Lib/Include/core_cm4.h)(0x61F12857)
+I (D:\special program\keil ARM\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (../Core/Inc/tim.h)(0x63DD06EA)
+I (..\Simple FOC\InlineCurrentSense\InlineCurrentSense.h)(0x63B12300)
+I (..\Simple FOC\_ReadADC\Inline_ADC.h)(0x63CEBA9A)
+I (../Core/Inc/adc.h)(0x63CAADAB)
+I (../Core/Inc/dma.h)(0x63CAADAC)
+I (..\Simple FOC\CurrentSense\CurrentSense.h)(0x63B85493)
+F (..\Simple FOC\InlineCurrentSense\InlineCurrentSense.c)(0x63CF7C8A)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\inlinecurrentsense.o --omf_browse foc_winter\inlinecurrentsense.crf --depend foc_winter\inlinecurrentsense.d)
+I (..\Simple FOC\InlineCurrentSense\InlineCurrentSense.h)(0x63B12300)
+I (../Core/Inc/main.h)(0x63CCFF7A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+I (../Hardware/User/delay/delay_JR.h)(0x63BD791A)
+I (..\Simple FOC\_ReadADC\Inline_ADC.h)(0x63CEBA9A)
+I (../Core/Inc/adc.h)(0x63CAADAB)
+I (../Core/Inc/dma.h)(0x63CAADAC)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\Simple FOC\FOC_Define\FOC_Define.h)(0x63B11E7D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\math.h)(0x5CEB79D6)
+I (..\Simple FOC\FOC_Motor\FOC_Motor.h)(0x63B5878C)
+I (..\Simple FOC\PID_Motor\PID_Motor.h)(0x63CEBB64)
+I (..\Simple FOC\Base_Motor_Control\Base_Motor_Control.h)(0x63AD91A0)
+I (../DSP_Lib/Include/arm_math.h)(0x61F12857)
+I (../DSP_Lib/Include/core_cm4.h)(0x61F12857)
+I (D:\special program\keil ARM\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (../Core/Inc/tim.h)(0x63DD06EA)
+I (../Hardware/User/AS5600/AS5600.h)(0x63D7BE65)
+I (..\Simple FOC\Low_pass_filtering\Low_pass_filtering.h)(0x63A6C93D)
+F (..\Simple FOC\Low_pass_filtering\Low_pass_filtering.c)(0x63BAD2D4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\low_pass_filtering.o --omf_browse foc_winter\low_pass_filtering.crf --depend foc_winter\low_pass_filtering.d)
+I (..\Simple FOC\Low_pass_filtering\Low_pass_filtering.h)(0x63A6C93D)
+I (../Core/Inc/main.h)(0x63CCFF7A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+F (..\Simple FOC\PID_Motor\PID_Motor.c)(0x63CEBB64)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../DSP_Lib/Include -I ../Hardware/User/AS5600 -I ../Hardware/User/delay -I ../Hardware/User/LCD_SPI -I ../Hardware/User/Usrt -I ../Hardware/User/GUI -I "..\Simple FOC\_ReadADC" -I "..\Simple FOC\Base_Motor_Control" -I "..\Simple FOC\CurrentSense" -I "..\Simple FOC\FOC_Define" -I "..\Simple FOC\FOC_Motor" -I "..\Simple FOC\InlineCurrentSense" -I "..\Simple FOC\Low_pass_filtering" -I "..\Simple FOC\PID_Motor"-I.\RTE\_FOC_Winter-IC:\Users\niklaus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\niklaus\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -D__TARGET_FPU_VFP -D__CC_ARM -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o foc_winter\pid_motor.o --omf_browse foc_winter\pid_motor.crf --depend foc_winter\pid_motor.d)
+I (..\Simple FOC\PID_Motor\PID_Motor.h)(0x63CEBB64)
+I (../Core/Inc/main.h)(0x63CCFF7A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62D7965D)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x63D378B7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62D7965D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62D7962D)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62D79631)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62D79631)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62D79631)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62D7962D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62D7965D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62D7965D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62D7965D)
+I (..\Simple FOC\FOC_Define\FOC_Define.h)(0x63B11E7D)
+I (D:\special program\keil ARM\ARM\ARMCC\include\math.h)(0x5CEB79D6)
+I (..\Simple FOC\FOC_Motor\FOC_Motor.h)(0x63B5878C)
+I (D:\special program\keil ARM\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\Simple FOC\Base_Motor_Control\Base_Motor_Control.h)(0x63AD91A0)
+I (../DSP_Lib/Include/arm_math.h)(0x61F12857)
+I (../DSP_Lib/Include/core_cm4.h)(0x61F12857)
+I (D:\special program\keil ARM\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (../Hardware/User/delay/delay_JR.h)(0x63BD791A)
+I (../Core/Inc/tim.h)(0x63DD06EA)
+I (../Hardware/User/AS5600/AS5600.h)(0x63D7BE65)
+I (..\Simple FOC\Low_pass_filtering\Low_pass_filtering.h)(0x63A6C93D)

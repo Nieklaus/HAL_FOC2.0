@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=+3.3 Pin=E1-1
+Removed Pin From Net: NetName=GND Pin=E1-2
+Removed Member From Class: ClassName=FOC_Lite Member=E8
+Change Component Designator: OldDesignator=E2 NewDesignator=E1
+Change Component Designator: OldDesignator=E3 NewDesignator=E2
+Change Component Designator: OldDesignator=E4 NewDesignator=E3
+Change Component Designator: OldDesignator=E5 NewDesignator=E4
+Change Component Designator: OldDesignator=E6 NewDesignator=E5
+Change Component Designator: OldDesignator=E7 NewDesignator=E6
+Change Component Designator: OldDesignator=E8 NewDesignator=E7
+Added Component: Designator=C9(C 0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "无极性贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "https://lmdzstyle.taobao.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "黎明电子style"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C9-1
+Added Pin To Net: NetName=+3.3 Pin=C9-2
+Added Member To Class: ClassName=FOC_Lite Member=Component C9 104

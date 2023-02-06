@@ -1,0 +1,61 @@
+Change Component Designator: OldDesignator=R13 NewDesignator=R15
+Change Component Designator: OldDesignator=R14 NewDesignator=R16
+Added Component: Designator=C10(C 0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "无极性贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "https://lmdzstyle.taobao.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "黎明电子style"; VariantName = "[No Variations]"
+Added Component: Designator=C11(C 0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "无极性贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "https://lmdzstyle.taobao.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "黎明电子style"; VariantName = "[No Variations]"
+Added Component: Designator=R13(R 0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "https://lmdzstyle.taobao.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "黎明电子style"; VariantName = "[No Variations]"
+Added Component: Designator=R14(R 0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "https://lmdzstyle.taobao.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "黎明电子style"; VariantName = "[No Variations]"
+Added Component: Designator=SW1(TSW DIP-6*6*6)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "直插6x6轻触开关"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "https://lmdzstyle.taobao.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "黎明电子style"; VariantName = "[No Variations]"
+Added Component: Designator=SW2(TSW DIP-6*6*6)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "直插6x6轻触开关"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "https://lmdzstyle.taobao.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "黎明电子style"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C10-2
+Added Pin To Net: NetName=GND Pin=C11-2
+Added Pin To Net: NetName=+3.3 Pin=R13-1
+Added Pin To Net: NetName=+3.3 Pin=R14-1
+Added Pin To Net: NetName=GND Pin=SW1-1
+Added Pin To Net: NetName=GND Pin=SW1-4
+Added Pin To Net: NetName=GND Pin=SW2-1
+Added Pin To Net: NetName=GND Pin=SW2-4
+Added Pin To Net: NetName=SW0 Pin=C10-1
+Added Pin To Net: NetName=SW0 Pin=R13-2
+Added Pin To Net: NetName=SW0 Pin=SW1-2
+Added Pin To Net: NetName=SW0 Pin=SW1-3
+Added Net: Name=SW0
+Added Pin To Net: NetName=SW1 Pin=C11-1
+Added Pin To Net: NetName=SW1 Pin=R14-2
+Added Pin To Net: NetName=SW1 Pin=SW2-2
+Added Pin To Net: NetName=SW1 Pin=SW2-3
+Added Net: Name=SW1
+Added Member To Class: ClassName=FOC_Lite Member=Component C10 104
+Added Member To Class: ClassName=FOC_Lite Member=Component C11 104
+Added Member To Class: ClassName=FOC_Lite Member=Component E1 100UF
+Added Member To Class: ClassName=FOC_Lite Member=Component E3 100UF
+Added Member To Class: ClassName=FOC_Lite Member=Component E4 100UF
+Added Member To Class: ClassName=FOC_Lite Member=Component E6 100UF
+Added Member To Class: ClassName=FOC_Lite Member=Component E7 47UF
+Added Member To Class: ClassName=FOC_Lite Member=Component R15 1K
+Added Member To Class: ClassName=FOC_Lite Member=Component R16 1k
+Added Member To Class: ClassName=FOC_Lite Member=Component SW1 6x6x5
+Added Member To Class: ClassName=FOC_Lite Member=Component SW2 6x6x5

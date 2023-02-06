@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: FOC_Lite.PcbDoc   2023/1/14  13:55:06
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : FOC_Lite-RoundHoles.TXT
+ASCII SlotHoles File : FOC_Lite-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      10mil (0.254mm)                                           Round             3         PTH        0.00inch (0.00mm)
+T2      28mil (0.711mm)                                           Round             194       PTH        0.00inch (0.00mm)
+T3      32mil (0.813mm)                                           Round             8         PTH        0.00inch (0.00mm)
+T4      35mil (0.889mm)                                           Round             7         PTH        0.00inch (0.00mm)
+T5      35mil (0.9mm)                                             Round             152       PTH        0.00inch (0.00mm)
+T6      39mil (1mm)                                               Round             8         PTH        0.00inch (0.00mm)
+T7      39mil (1mm)                                               Slot              3         PTH        0.00inch (0.00mm)
+T8      47mil (1.2mm)                                             Round             7         PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              382
+
+Total Processing Time (hh:mm:ss) : 00:00:01

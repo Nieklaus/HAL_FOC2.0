@@ -1,0 +1,13 @@
+Added Component: Designator=D4(SMB3.3A)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM_JLCPCB Part Class"; Value = "Extended Part"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "BOM_Manufacturer"; Value = "Leiditech(À×Ã®µç×Ó)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "BOM_Manufacturer Part"; Value = "SMBJ3.3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "BOM_Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "BOM_Supplier Part"; Value = "C2759861"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contributor"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "spicePre"; Value = "D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "spiceSymbolName"; Value = "SMBJ3.3A_C2759861"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3.3 Pin=D4-1
+Added Pin To Net: NetName=GND Pin=D4-2
+Added Member To Class: ClassName=FOC_Lite Member=Component D4 SMBJ3.3A_C2759861

@@ -1,0 +1,10 @@
+Added Pin To Net: NetName=PE14 Pin=JP6-5
+Added Pin To Net: NetName=DC Pin=JP13-14
+Added Pin To Net: NetName=CS Pin=JP13-15
+Added Pin To Net: NetName=BLK Pin=JP13-16
+Added Pin To Net: NetName=SW0 Pin=JP14-19
+Added Pin To Net: NetName=SW1 Pin=JP14-20
+Change Net Name : Old Net Name=SW0 New Net Name=PB13
+Change Net Name : Old Net Name=SW1 New Net Name=PB12
+Added Member To Class: ClassName=FOC_Lite Member=Component R13 10K
+Added Member To Class: ClassName=FOC_Lite Member=Component R14 10K

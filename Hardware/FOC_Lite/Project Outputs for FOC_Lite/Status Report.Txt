@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [FOC_Lite.PrjPcb]
+   Generated File[FOC_Lite-RoundHoles.TXT]
+   Generated File[FOC_Lite-SlotHoles.TXT]
+   Generated File[FOC_Lite.LDP]
+   Generated File[FOC_Lite.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 13:55:07 On 2023/1/14

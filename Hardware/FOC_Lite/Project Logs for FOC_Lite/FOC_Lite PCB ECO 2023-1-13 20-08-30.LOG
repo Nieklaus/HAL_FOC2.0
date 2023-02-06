@@ -1,0 +1,13 @@
+Change Component Designator: OldDesignator=JP11 NewDesignator=JP12
+Change Component Designator: OldDesignator=JP12 NewDesignator=JP13
+Change Component Designator: OldDesignator=JP13 NewDesignator=JP14
+Change Component Designator: OldDesignator=JP14 NewDesignator=JP15
+Added Component: Designator=JP11(XH2.54-4P)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "4P接插件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "https://lmdzstyle.taobao.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "黎明电子style"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=PA9 Pin=JP11-1
+Added Pin To Net: NetName=PA10 Pin=JP11-2
+Added Pin To Net: NetName=GND Pin=JP11-3
+Added Member To Class: ClassName=FOC_Lite Member=Component JP15 Header 2X11
